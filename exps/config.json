@@ -1,0 +1,21 @@
+{
+    "dataset": "Food101",
+    "augmentation_prob": 0.0,
+    "augmentations_per_image": 1,
+    "memory_per_class": 20,
+    "real_per_class": 20,
+    "syn_per_class": 0,
+    
+    "init_cls": 51,
+    "increment": 5,
+    "memory_size": null,
+    "fixed_memory": true,
+    "shuffle": true,
+    "model_name": "der",
+    "convnet_type": "resnet18",
+    "device": ["0","1"],
+    "seed": [1993],
+    "model_seed": 1,
+    "batch_size": 128,
+    "num_workers": 8
+}
